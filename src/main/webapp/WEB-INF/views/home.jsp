@@ -10,6 +10,9 @@
 </h1>
 
 <P>  The time on the server is ${serverTime}. </P>
-<button type="button" onclick="">push</button>
+
+<form method="get" action="<%=request.getContextPath()%>/skillUpload">
+<button type="submit">push</button>
+</form>
 </body>
 </html>
